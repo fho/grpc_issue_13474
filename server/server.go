@@ -73,6 +73,7 @@ func main() {
 		time.Sleep(30 * time.Second)
 		log.Printf("stopping server")
 		grpcServer.Stop()
+		time.Sleep(3 * time.Second)
 	}
 
 }
